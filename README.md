@@ -1,4 +1,4 @@
-### Real Programmer's DVORAK" layout programmed for the Advantage 360 (non-pro).
+### "Real Programmer's DVORAK" layout programmed for the Advantage 360 (non-pro).
 
 The Smartset application is pretty rough, and the firmware is limited; so I used macros where needed to get the layout working.
 
