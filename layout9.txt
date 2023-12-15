@@ -1,0 +1,126 @@
+<base>
+
+**DVORAK BASE**
+[w]>[comm]
+[e]>[perd]
+[r]>[p]
+[t]>[y]
+[y]>[f]
+[u]>[g]
+[i]>[c]
+[o]>[r]
+[p]>[l]
+[s]>[o]
+[d]>[e]
+[f]>[u]
+[g]>[i]
+[h]>[d]
+[j]>[h]
+[k]>[t]
+[l]>[n]
+[scol]>[s]
+[x]>[q]
+[c]>[j]
+[v]>[k]
+[b]>[x]
+[n]>[b]
+[comm]>[w]
+[perd]>[v]
+[fsls]>[z]
+
+
+
+* ' -> /|? *
+[apos]>[fsls]
+
+**PDVORAK MOD MAPS**
+
+
+* ' ->  ;|:* (DVORAK ')
+[q]>[scol]
+* ; -> '|" * (DVORAK ;)
+[z]>[apos]
+
+
+
+**PDVORAK MOD MACROS**
+
+* equals -> $|~ *
+{eql}>{-lshf}{4}{+lshf}
+{rshf}{eql}>{-lshf}{grav}{+lshf}
+{lshf}{eql}>{-lshf}{grav}{+lshf}
+
+* 1 -> +|1 *
+{1}>{-lshf}{eql}{+lshf}
+{rshf}{1}>{1}
+{lshf}{1}>{1}
+
+* 2 -> [|2 *
+{2}>{obrk}
+{rshf}{2}>{2}
+{lshf}{2}>{2}
+
+* 3 -> {|3 *
+{3}>{-lshf}{obrk}{+lshf}
+{rshf}{3}>{3}
+{lshf}{3}>{3}
+
+* 4 -> (|4 *
+{4}>{-lshf}{9}{+lshf}
+{rshf}{4}>{4}
+{lshf}{4}>{4}
+
+* 5 -> &|5 *
+{5}>{-lshf}{7}{+lshf}
+{rshf}{5}>{5}
+{lshf}{5}>{5}
+
+* 6 -> =|6 *
+{6}>{eql}
+{rshf}{6}>{6}
+{lshf}{6}>{6}
+
+* 7 -> )|7 *
+{7}>{-lshf}{0}{+lshf}
+{rshf}{7}>{7}
+{lshf}{7}>{7}
+
+* 8 -> }|8 *
+{8}>{-lshf}{cbrk}{+lshf}
+{rshf}{8}>{8}
+{lshf}{8}>{8}
+
+* 9 -> ]|9 *
+{9}>{cbrk}
+{rshf}{9}>{9}
+{lshf}{9}>{9}
+
+* 0 -> *|0 *
+{0}>{-lshf}{8}{+lshf}
+{rshf}{0}>{0}
+{lshf}{0}>{0}
+
+* - -> !|% *
+{hyph}>{-lshf}{1}{+lshf}
+{rshf}{hyph}>{-lshf}{5}{+lshf}
+{lshf}{hyph}>{-lshf}{5}{+lshf}
+
+* \ -> ||` *
+{bsls}>{-lshf}{bsls}{+lshf}
+{rshf}{bsls}>{grav}
+{lshf}{bsls}>{grav}
+
+* [ -> @|^ *
+{obrk}>{-lshf}{2}{+lshf}
+{rshf}{obrk}>{-lshf}{6}{+lshf}
+{lshf}{obrk}>{-lshf}{6}{+lshf}
+
+* ] -> \|# *
+{cbrk}>{bsls}
+{rshf}{cbrk}>{-lshf}{3}{+lshf}
+{lshf}{cbrk}>{-lshf}{3}{+lshf}
+
+
+<keypad>
+<function1>
+<function3>
