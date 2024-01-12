@@ -120,7 +120,28 @@
 {rshf}{cbrk}>{-lshf}{3}{+lshf}
 {lshf}{cbrk}>{-lshf}{3}{+lshf}
 
+{grav}>{-lshf}{hyph}{+lshf}
+{rshf}{grav}>{hyph}
+{lshf}{grav}>{hyph}
 
 <keypad>
+
+
 <function1>
+
+{c}>{s5}{x1}{-lctr}{c}{+lctr}
+{v}>{s5}{x1}{-lctr}{v}{+lctr}
+{lshf}{c}>{s5}{x1}{-lshf}{-lctr}{c}{+lshf}{+lctr}
+{rshf}{c}>{s5}{x1}{-lshf}{-lctr}{c}{+lshf}{+lctr}
+{lshf}{v}>{s5}{x1}{-lshf}{-lctr}{v}{+lshf}{+lctr}
+{rshf}{v}>{s5}{x1}{-lshf}{-lctr}{v}{+lshf}{+lctr}
+{x}>{s5}{x1}{-lctr}{x}{+lctr}
+{lshf}{x}>{s5}{x1}{-lshf}{-lctr}{x}{+lshf}{+lctr}
+{rshf}{x}>{s5}{x1}{-lshf}{-lctr}{x}{+lshf}{+lctr}
+{caps}>{s5}{x1}{-lshf}{-lwin}{s}{+lshf}{+lwin}
+{spc}>{s5}{x1}{-lalt}{tab}{+lalt}
+{z}>{s5}{x1}{-lctr}{z}{+lctr}
+{lshf}{z}>{s5}{x1}{-lshf}{-lctr}{z}{+lshf}{+lctr}
+{rshf}{z}>{s5}{x1}{-lshf}{-lctr}{z}{+lshf}{+lctr}
+
 <function3>
